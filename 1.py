@@ -21,7 +21,7 @@ print(df)
 
 #MEMBUAT DATA FRAME
 st.title('Data Produksi Minyak Mentah')
-st.header('UAS Pemrograman Komputer')
+st.header('UAS Prokom')
 ch_ = csvHandler('produksi_minyak_mentah.csv')
 jh_ = jsonHandler('kode_negara_lengkap.json')
 csv_ = ch_.dataFrame
